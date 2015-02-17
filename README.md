@@ -1,7 +1,10 @@
 # ZMaterialDesignUIButton
 <h6>Swift Animated Material Design UIButton</h6>
 
-<p>This Swift UIButton was made inspired in Google new Material Design.</p>
+<p>This Swift UIButton was made inspired in Google new Material Design, and this GIF :]</p>
+
+<img src="http://i.imgur.com/PAw22Gn.gif"/>
+<br>
 <br>
 **You need to add the ZMaterialButtonDelegate to your Controller:**
 
