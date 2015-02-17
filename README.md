@@ -3,7 +3,6 @@
 
 <p>This Swift UIButton was made inspired in Google new Material Design.</p>
 <br>
-<br>
 **You need to add the ZMaterialButtonDelegate to your Controller:**
 
 ```swift
