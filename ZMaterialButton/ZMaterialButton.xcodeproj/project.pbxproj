@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06CE84D1A925F93003D38C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CE84C1A925F93003D38C2 /* AppDelegate.swift */; };
+		F06CE84F1A925F93003D38C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CE84E1A925F93003D38C2 /* ViewController.swift */; };
+		F06CE8521A925F93003D38C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8501A925F93003D38C2 /* Main.storyboard */; };
+		F06CE8541A925F93003D38C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8531A925F93003D38C2 /* Images.xcassets */; };
+		F06CE8571A925F93003D38C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8551A925F93003D38C2 /* LaunchScreen.xib */; };
+		F06CE8631A925F93003D38C2 /* ZMaterialButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CE8621A925F93003D38C2 /* ZMaterialButtonTests.swift */; };
+		F06CE8731A92C8EE003D38C2 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8721A92C8EE003D38C2 /* play.png */; };
+		F06CE87B1A92F03E003D38C2 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8791A92F03E003D38C2 /* pause.png */; };
+		F06CE87C1A92F03E003D38C2 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE87A1A92F03E003D38C2 /* forward.png */; };
+		F06CE87E1A92F677003D38C2 /* ZMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CE87D1A92F677003D38C2 /* ZMaterialButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F06CE85D1A925F93003D38C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06CE83F1A925F93003D38C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06CE8461A925F93003D38C2;
+			remoteInfo = ZMaterialButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F06CE8471A925F93003D38C2 /* ZMaterialButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMaterialButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06CE84B1A925F93003D38C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06CE84C1A925F93003D38C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06CE84E1A925F93003D38C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F06CE8511A925F93003D38C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06CE8531A925F93003D38C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F06CE8561A925F93003D38C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F06CE85C1A925F93003D38C2 /* ZMaterialButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMaterialButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06CE8611A925F93003D38C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06CE8621A925F93003D38C2 /* ZMaterialButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMaterialButtonTests.swift; sourceTree = "<group>"; };
+		F06CE8721A92C8EE003D38C2 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F06CE8791A92F03E003D38C2 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		F06CE87A1A92F03E003D38C2 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		F06CE87D1A92F677003D38C2 /* ZMaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMaterialButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06CE8441A925F93003D38C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CE8591A925F93003D38C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F06CE83E1A925F93003D38C2 = {
+			isa = PBXGroup;
+			children = (
+				F06CE8491A925F93003D38C2 /* ZMaterialButton */,
+				F06CE85F1A925F93003D38C2 /* ZMaterialButtonTests */,
+				F06CE8481A925F93003D38C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06CE8481A925F93003D38C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06CE8471A925F93003D38C2 /* ZMaterialButton.app */,
+				F06CE85C1A925F93003D38C2 /* ZMaterialButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06CE8491A925F93003D38C2 /* ZMaterialButton */ = {
+			isa = PBXGroup;
+			children = (
+				F06CE8721A92C8EE003D38C2 /* play.png */,
+				F06CE8791A92F03E003D38C2 /* pause.png */,
+				F06CE87A1A92F03E003D38C2 /* forward.png */,
+				F06CE84C1A925F93003D38C2 /* AppDelegate.swift */,
+				F06CE84E1A925F93003D38C2 /* ViewController.swift */,
+				F06CE87D1A92F677003D38C2 /* ZMaterialButton.swift */,
+				F06CE8501A925F93003D38C2 /* Main.storyboard */,
+				F06CE8531A925F93003D38C2 /* Images.xcassets */,
+				F06CE8551A925F93003D38C2 /* LaunchScreen.xib */,
+				F06CE84A1A925F93003D38C2 /* Supporting Files */,
+			);
+			path = ZMaterialButton;
+			sourceTree = "<group>";
+		};
+		F06CE84A1A925F93003D38C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06CE84B1A925F93003D38C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F06CE85F1A925F93003D38C2 /* ZMaterialButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F06CE8621A925F93003D38C2 /* ZMaterialButtonTests.swift */,
+				F06CE8601A925F93003D38C2 /* Supporting Files */,
+			);
+			path = ZMaterialButtonTests;
+			sourceTree = "<group>";
+		};
+		F06CE8601A925F93003D38C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06CE8611A925F93003D38C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06CE8461A925F93003D38C2 /* ZMaterialButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06CE8661A925F93003D38C2 /* Build configuration list for PBXNativeTarget "ZMaterialButton" */;
+			buildPhases = (
+				F06CE8431A925F93003D38C2 /* Sources */,
+				F06CE8441A925F93003D38C2 /* Frameworks */,
+				F06CE8451A925F93003D38C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMaterialButton;
+			productName = ZMaterialButton;
+			productReference = F06CE8471A925F93003D38C2 /* ZMaterialButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F06CE85B1A925F93003D38C2 /* ZMaterialButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06CE8691A925F93003D38C2 /* Build configuration list for PBXNativeTarget "ZMaterialButtonTests" */;
+			buildPhases = (
+				F06CE8581A925F93003D38C2 /* Sources */,
+				F06CE8591A925F93003D38C2 /* Frameworks */,
+				F06CE85A1A925F93003D38C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06CE85E1A925F93003D38C2 /* PBXTargetDependency */,
+			);
+			name = ZMaterialButtonTests;
+			productName = ZMaterialButtonTests;
+			productReference = F06CE85C1A925F93003D38C2 /* ZMaterialButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06CE83F1A925F93003D38C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ricardo Zertuche";
+				TargetAttributes = {
+					F06CE8461A925F93003D38C2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F06CE85B1A925F93003D38C2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F06CE8461A925F93003D38C2;
+					};
+				};
+			};
+			buildConfigurationList = F06CE8421A925F93003D38C2 /* Build configuration list for PBXProject "ZMaterialButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06CE83E1A925F93003D38C2;
+			productRefGroup = F06CE8481A925F93003D38C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06CE8461A925F93003D38C2 /* ZMaterialButton */,
+				F06CE85B1A925F93003D38C2 /* ZMaterialButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06CE8451A925F93003D38C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CE8521A925F93003D38C2 /* Main.storyboard in Resources */,
+				F06CE8731A92C8EE003D38C2 /* play.png in Resources */,
+				F06CE87B1A92F03E003D38C2 /* pause.png in Resources */,
+				F06CE87C1A92F03E003D38C2 /* forward.png in Resources */,
+				F06CE8571A925F93003D38C2 /* LaunchScreen.xib in Resources */,
+				F06CE8541A925F93003D38C2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CE85A1A925F93003D38C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06CE8431A925F93003D38C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CE87E1A92F677003D38C2 /* ZMaterialButton.swift in Sources */,
+				F06CE84F1A925F93003D38C2 /* ViewController.swift in Sources */,
+				F06CE84D1A925F93003D38C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06CE8581A925F93003D38C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CE8631A925F93003D38C2 /* ZMaterialButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06CE85E1A925F93003D38C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06CE8461A925F93003D38C2 /* ZMaterialButton */;
+			targetProxy = F06CE85D1A925F93003D38C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F06CE8501A925F93003D38C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06CE8511A925F93003D38C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06CE8551A925F93003D38C2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06CE8561A925F93003D38C2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06CE8641A925F93003D38C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06CE8651A925F93003D38C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06CE8671A925F93003D38C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZMaterialButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F06CE8681A925F93003D38C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZMaterialButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F06CE86A1A925F93003D38C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZMaterialButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMaterialButton.app/ZMaterialButton";
+			};
+			name = Debug;
+		};
+		F06CE86B1A925F93003D38C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZMaterialButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMaterialButton.app/ZMaterialButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06CE8421A925F93003D38C2 /* Build configuration list for PBXProject "ZMaterialButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CE8641A925F93003D38C2 /* Debug */,
+				F06CE8651A925F93003D38C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06CE8661A925F93003D38C2 /* Build configuration list for PBXNativeTarget "ZMaterialButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CE8671A925F93003D38C2 /* Debug */,
+				F06CE8681A925F93003D38C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06CE8691A925F93003D38C2 /* Build configuration list for PBXNativeTarget "ZMaterialButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CE86A1A925F93003D38C2 /* Debug */,
+				F06CE86B1A925F93003D38C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06CE83F1A925F93003D38C2 /* Project object */;
+}
