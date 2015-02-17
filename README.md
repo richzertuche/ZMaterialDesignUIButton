@@ -1,7 +1,7 @@
 # ZMaterialDesignUIButton
 <h6>Swift Animated Material Design UIButton</h6>
 
-<p>This Swift UIButton was made inspired in Google new Material Design.
+<p>This Swift UIButton was made inspired in Google new Material Design.</p>
 <br>
 <br>
 **You need to add the ZMaterialButtonDelegate to your Controller:**
@@ -10,21 +10,6 @@
 class ViewController: UIViewController, ZMaterialButtonDelegate {
 }
 ```
-<br>
-**To create a UIButtons Carousel just go on and create a ZCarousel variable with frame. 
-Set thee delegate and use the method .addButtons() and add it to your view.**
-
-```swift
-var menu = ZCarousel(frame: CGRect( x: self.view.frame.size.width/5,
-            y: 100,
-            width: (self.view.frame.size.width/5)*3,
-            height: 50))
-menu.ZCdelegate = self
-menu.addButtons(["iOS 8 by Tutorials", "Swift by Tutorials", "Core Data by Tutorials", "WatchKit by Tutorials"])
-        
-self.view.addSubview(menu!)
-```
-
 <br>
 **To create a Material UIButton init it with frame and set the Zdelegate, a .endPoint (CGPoint) and a .changeToImage (UIImage)**
 <br>
