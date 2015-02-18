@@ -116,7 +116,7 @@ class ZMaterialButton: UIButton {
     }
     
     private func buttonGetBack(){
-        UIView.animateWithDuration(0.3, delay: 0, options: .CurveEaseOut, animations: {
+        UIView.animateWithDuration(0.6, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0, options: .CurveEaseOut, animations: {
             self.frame = self.originalFrame
             }, completion:nil)
     }
