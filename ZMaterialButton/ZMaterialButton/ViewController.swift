@@ -22,11 +22,12 @@ class ViewController: UIViewController, ZMaterialButtonDelegate {
         containerView.clipsToBounds = true
         self.view.addSubview(containerView)
         
-        self.button = ZMaterialButton(frame: CGRect(x: 10, y: 40, width: 100, height: 100))
+        self.button = ZMaterialButton(frame: CGRect(x: 10, y: 40, width: 50, height: 50))
         self.button.setImage(UIImage(named: "play"), forState: UIControlState.Normal)
         self.button.backgroundColor = UIColor(red:0.05, green:0.69, blue:0.79, alpha:1)
-        self.button.endPoint = CGPoint(x:self.view.center.x-50, y: self.view.center.y-50)
+        self.button.endPoint = CGPoint(x:self.view.center.x-25, y: self.view.center.y-25)
         self.button.changeToImage = UIImage(named: "pause")
+        self.button.expandBy = 15
         self.button.Zdelegate = self
         containerView.addSubview(self.button)
         
@@ -63,11 +64,11 @@ class ViewController: UIViewController, ZMaterialButtonDelegate {
     }
     
     func testButtonExpanded(){
-        println("Expanded and Action")
+        print("Expanded and Action")
     }
     
     func testButtonReduced(){
-        println("Reduced and Action")
+        print("Reduced and Action")
     }
 
     override func didReceiveMemoryWarning() {

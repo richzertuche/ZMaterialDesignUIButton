@@ -39,7 +39,7 @@ class ZMaterialButton: UIButton {
         self.originalFrame = frame
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if self.expanded == true {
             self.buttonReduce()
         }
@@ -60,14 +60,24 @@ class ZMaterialButton: UIButton {
             }, completion:{
                 finished in
                 self.buttonExpand()
-            })
+        })
+    }
+    
+    func getImageWithColor(color: UIColor, size: CGSize) -> UIImage {
+        let rect = CGRectMake(0, 0, size.width, size.height)
+        UIGraphicsBeginImageContextWithOptions(size, false, 0)
+        color.setFill()
+        UIRectFill(rect)
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
     }
     
     private func buttonExpand(){
         
         let parentView: UIView = self.superview!
         
-        self.imageView?.image = nil
+        self.imageView!.alpha = 0
         let dummyImageView = UIImageView(frame: self.frame)
         dummyImageView.image = self.changeToImage
         dummyImageView.contentMode = UIViewContentMode.Center
@@ -79,6 +89,7 @@ class ZMaterialButton: UIButton {
             }, completion:{
                 finished in
                 self.transform = CGAffineTransformMakeScale(1.0,1.0)
+                self.imageView!.alpha = 1
                 self.imageView?.image = self.changeToImage
                 parentView.backgroundColor = self.backgroundColor
                 dummyImageView.removeFromSuperview()
@@ -96,7 +107,7 @@ class ZMaterialButton: UIButton {
         parentView.addSubview(dummyImageView)
         
         self.alpha = 0
-        self.imageView?.image = nil
+        self.imageView!.alpha = 0;
         self.transform = CGAffineTransformMakeScale(self.expandBy,self.expandBy)
         parentView.backgroundColor = originalColor
         self.alpha = 1
@@ -109,6 +120,7 @@ class ZMaterialButton: UIButton {
             
             }, completion:{
                 finished in
+                self.imageView!.alpha = 1;
                 self.imageView?.image = self.originalImage
                 dummyImageView.removeFromSuperview()
                 self.buttonGetBack()

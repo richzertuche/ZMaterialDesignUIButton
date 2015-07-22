@@ -13,9 +13,9 @@
 		F06CE8541A925F93003D38C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8531A925F93003D38C2 /* Images.xcassets */; };
 		F06CE8571A925F93003D38C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8551A925F93003D38C2 /* LaunchScreen.xib */; };
 		F06CE8631A925F93003D38C2 /* ZMaterialButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CE8621A925F93003D38C2 /* ZMaterialButtonTests.swift */; };
-		F06CE8731A92C8EE003D38C2 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8721A92C8EE003D38C2 /* play.png */; };
-		F06CE87B1A92F03E003D38C2 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8791A92F03E003D38C2 /* pause.png */; };
-		F06CE87C1A92F03E003D38C2 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE87A1A92F03E003D38C2 /* forward.png */; };
+		F06CE8731A92C8EE003D38C2 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8721A92C8EE003D38C2 /* play@2x.png */; };
+		F06CE87B1A92F03E003D38C2 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE8791A92F03E003D38C2 /* pause@2x.png */; };
+		F06CE87C1A92F03E003D38C2 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F06CE87A1A92F03E003D38C2 /* forward@2x.png */; };
 		F06CE87E1A92F677003D38C2 /* ZMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CE87D1A92F677003D38C2 /* ZMaterialButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,9 +40,9 @@
 		F06CE85C1A925F93003D38C2 /* ZMaterialButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMaterialButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06CE8611A925F93003D38C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F06CE8621A925F93003D38C2 /* ZMaterialButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMaterialButtonTests.swift; sourceTree = "<group>"; };
-		F06CE8721A92C8EE003D38C2 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		F06CE8791A92F03E003D38C2 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
-		F06CE87A1A92F03E003D38C2 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		F06CE8721A92C8EE003D38C2 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		F06CE8791A92F03E003D38C2 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		F06CE87A1A92F03E003D38C2 /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
 		F06CE87D1A92F677003D38C2 /* ZMaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMaterialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,9 +85,9 @@
 		F06CE8491A925F93003D38C2 /* ZMaterialButton */ = {
 			isa = PBXGroup;
 			children = (
-				F06CE8721A92C8EE003D38C2 /* play.png */,
-				F06CE8791A92F03E003D38C2 /* pause.png */,
-				F06CE87A1A92F03E003D38C2 /* forward.png */,
+				F06CE8721A92C8EE003D38C2 /* play@2x.png */,
+				F06CE8791A92F03E003D38C2 /* pause@2x.png */,
+				F06CE87A1A92F03E003D38C2 /* forward@2x.png */,
 				F06CE84C1A925F93003D38C2 /* AppDelegate.swift */,
 				F06CE84E1A925F93003D38C2 /* ViewController.swift */,
 				F06CE87D1A92F677003D38C2 /* ZMaterialButton.swift */,
@@ -168,6 +168,7 @@
 		F06CE83F1A925F93003D38C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Ricardo Zertuche";
 				TargetAttributes = {
@@ -205,9 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F06CE8521A925F93003D38C2 /* Main.storyboard in Resources */,
-				F06CE8731A92C8EE003D38C2 /* play.png in Resources */,
-				F06CE87B1A92F03E003D38C2 /* pause.png in Resources */,
-				F06CE87C1A92F03E003D38C2 /* forward.png in Resources */,
+				F06CE8731A92C8EE003D38C2 /* play@2x.png in Resources */,
+				F06CE87B1A92F03E003D38C2 /* pause@2x.png in Resources */,
+				F06CE87C1A92F03E003D38C2 /* forward@2x.png in Resources */,
 				F06CE8571A925F93003D38C2 /* LaunchScreen.xib in Resources */,
 				F06CE8541A925F93003D38C2 /* Images.xcassets in Resources */,
 			);
