@@ -64,11 +64,11 @@ class ViewController: UIViewController, ZMaterialButtonDelegate {
     }
     
     func testButtonExpanded(){
-        print("Expanded and Action")
+        println("Expanded and Action")
     }
     
     func testButtonReduced(){
-        print("Reduced and Action")
+        println("Reduced and Action")
     }
 
     override func didReceiveMemoryWarning() {

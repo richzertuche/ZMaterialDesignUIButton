@@ -39,7 +39,8 @@ class ZMaterialButton: UIButton {
         self.originalFrame = frame
     }
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent)
+    {
         if self.expanded == true {
             self.buttonReduce()
         }
@@ -63,23 +64,13 @@ class ZMaterialButton: UIButton {
             })
     }
     
-    func getImageWithColor(color: UIColor, size: CGSize) -> UIImage {
-        let rect = CGRectMake(0, 0, size.width, size.height)
-        UIGraphicsBeginImageContextWithOptions(size, false, 0)
-        color.setFill()
-        UIRectFill(rect)
-        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return image
-    }
-    
     private func buttonExpand(){
         
         let parentView: UIView = self.superview!
         
         self.imageView!.alpha = 0
         let dummyImageView = UIImageView(frame: self.frame)
-        dummyImageView.image = self.changeToImage
+        dummyImageView.image = self.originalImage
         dummyImageView.contentMode = UIViewContentMode.Center
         parentView.addSubview(dummyImageView)
         
