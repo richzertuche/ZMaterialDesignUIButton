@@ -1,7 +1,7 @@
 # ZMaterialDesignUIButton
-<h6>Swift Animated Material Design UIButton</h6>
+<h6>Swift and Objective-C Animated Material Design UIButton</h6>
 
-<p>This Swift UIButton was made inspired in Google new Material Design, and this GIF :]</p>
+<p>This Swift and Objective-C! UIButton was made inspired in Google new Material Design, and this GIF :]</p>
 
 <img src="http://i.imgur.com/PAw22Gn.gif"/>
 <br>
@@ -18,6 +18,7 @@ class ViewController: UIViewController, ZMaterialButtonDelegate {
 **To create a Material UIButton init it with frame and set the Zdelegate, a .endPoint (CGPoint) and a .changeToImage (UIImage)**
 <br>
 
+<h6>Swift</h6>
 ```swift
 let containerView = UIView(frame: CGRect(x: 0, y: 200, width: self.view.frame.size.width, height: self.view.frame.size.height-200))
 containerView.clipsToBounds = true
@@ -31,9 +32,24 @@ self.button.changeToImage = UIImage(named: "pause")
 self.button.Zdelegate = self
 containerView.addSubview(self.button)
 ```
+<h6>Obj-C</h6>
+``` obj-c
+ZMaterialButton *ZButton = [[ZMaterialButton alloc]initWithFrame:CGRectMake(40, 40, 50, 50)];
+    [ZButton setImage:[UIImage imageNamed:@"play"] forState:UIControlStateNormal];
+    [ZButton setBackgroundColor:[UIColor redColor]];
+    [ZButton setEndAnimationPoint:CGPointMake(self.view.center.x-25, self.view.center.y-25)];
+    ZButton.changeToImage = [UIImage imageNamed:@"pause"];
+    ZButton.expandBy = 20;
+    ZButton.originalParentViewColor = [UIColor whiteColor];
+    ZButton.delegate = self;
+    
+    [self.view addSubview:ZButton];
+```
 <br>
 **Add the delegate function ZMaterialButtonDidExpand() to your controller to know when the button expanded or reduced.**
 <br>
+
+<h6>Swift</h6>
 ```swift
 func ZMaterialButtonDidExpand(button: ZMaterialButton, expanded: Bool){
         if expanded == true {
@@ -51,6 +67,17 @@ func ZMaterialButtonDidExpand(button: ZMaterialButton, expanded: Bool){
                 }, completion:nil)
         }
     }
+```
+
+<h6>Obj-C</h6>
+```obj-c
+- (void) ZMaterialButtonDidExpandButton:(ZMaterialButton *)button withSuccces:(BOOL)success{
+    if (success) {
+        NSLog(@"Expanded");
+    } else {
+        NSLog(@"Reduced");
+    }
+}
 ```
 
 Hope you like it :]
